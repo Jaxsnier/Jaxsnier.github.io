@@ -1,3 +1,39 @@
+*{
+    margin: 0;
+}
+
 html{
     background-color: darkgrey;
+}
+
+header{
+    background-color: grey;
+    height: 95vh;
+}
+
+
+
+section{
+    background-color: white;
+    border: 1px solid black;
+
+    height: 70vh;
+}
+
+.imagen-fondo{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position: inherit;
+
+}
+
+#img-seccion-uno{
+    background-image: url(img/img-ejemplo.png);
+}
+#img-seccion-dos{
+    background-image: url(img/img-ejemplo-dos.png);
 }
