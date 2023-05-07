@@ -4,14 +4,42 @@
 
 html{
     background-color: darkgrey;
+    font-family: sans-serif;
+    text-align: center;
 }
 
 header{
-    background-color: grey;
-    height: 95vh;
+    height: 100vh;
+    display: ;
 }
 
+.contenedor-texto{
+    position: relative;
+    z-index: 1;
 
+    color: white;
+
+    text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 1em;
+    margin-top: 10%;
+    text-decoration: dashed;
+    
+}
+
+#img-header{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+
+}
 
 section{
     background-color: white;
@@ -20,20 +48,3 @@ section{
     height: 70vh;
 }
 
-.imagen-fondo{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-position: inherit;
-
-}
-
-#img-seccion-uno{
-    background-image: url(img/img-ejemplo.png);
-}
-#img-seccion-dos{
-    background-image: url(img/img-ejemplo-dos.png);
-}
