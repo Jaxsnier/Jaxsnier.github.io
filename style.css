@@ -5,8 +5,6 @@
 #devtools{
     position: fixed;
     z-index: 11;
-    top: 0;
-    left: 70%;
     display: flex;
 }
 
@@ -43,7 +41,7 @@ section{
     overflow: hidden;
 
     background-color: white;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 
     height: 70vh;
 }
@@ -68,4 +66,14 @@ section img{
     color: white;
 
     text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    position: absolute;
+    background-color: rgba(1, 11, 19, 0.133);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1%;
 }
