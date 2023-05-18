@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+}
+
+#devtools{
+    position: fixed;
+    z-index: 11;
+    display: flex;
+}
+
+html{
+    background-color: darkgrey;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+#img-header{
+    z-index: 1;
+    position: relative;
+    height: 150%;
+}
+
+header h1{
+    font-size: 3em;
+}
+
+header h2{
+    font-size: 1em;
+    margin-top: 10%;
+    text-decoration: dashed;
+    
+}
+
+section{
+    position: relative;
+    overflow: hidden;
+
+    background-color: white;
+    border: 1px solid black;
+
+    height: 90vh;
+}
+
+section h2{
+    font-size: 3em;
+}
+
+section img{
+    z-index: 1;
+    position: relative;
+    height: 150%;
+
+}
+
+.contenedor-texto{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: white;
+
+    text-shadow: 3px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    position: absolute;
+    background-color: rgba(1, 11, 19, 0.133);
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1%;
+}
