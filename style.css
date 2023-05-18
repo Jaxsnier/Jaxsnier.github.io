@@ -45,7 +45,7 @@ header{
     border: 1px solid black;
 }
 #header-img-fondo{
-    margin-top: 10vh;
+    margin: 10vh 0 0 0;
     max-width: 60%;
 }
 
