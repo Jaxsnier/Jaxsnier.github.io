@@ -1,3 +1,12 @@
+/* paleta de colores */
+:root {
+    --color1: rgb(110, 7, 243);
+    --color2: rgb(255, 255, 255);
+    --color3: rgb(91, 233, 185);
+    --color4: rgb(20, 28, 58);
+    --color5-text: rgb(0, 0, 0);
+  }
+
 *{
     margin: 0;
 }
@@ -9,24 +18,27 @@
 }
 
 html{
-    background-color: darkgrey;
+    background-color: var(--color2);
     font-family: sans-serif;
     text-align: center;
 }
 
 header{
-    background-color: aliceblue;
+    background-color: var(--color2);
 }
 
 .nav-bar{
     padding: 20px 0 20px 0;
-    background-color: bisque;
+    background-color: var(--color2);
     display: flex; 
     justify-content: space-between;
 }
 .nav-item{
     width: 100px;
-    padding:  15px;
+    padding:  20px 0px 0px 75px;
+}
+.nav-item img{
+    max-width: 75px;
 }
 
 .header-texto{
@@ -41,14 +53,68 @@ header{
 
 #header-img{
     border-radius: 30%;
-    width: 250px;
-    border: 1px solid black;
+    width: 200px;
+    border: 1px solid var(--color4);
 }
 #header-img-fondo{
-    margin: 10vh 0 0 0;
+    margin: 5vh 0 0 0;
     max-width: 60%;
+    position: relative;
+    top: 5px;
 }
 
 main{
-    background-color: rgb(103, 169, 226);
+    background-color: var(--color2);
 }
+
+section{
+    padding: 80px 24px 128px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+
+}
+
+section div{
+    max-width: 600px;
+}
+section h2{
+    padding-bottom: 5%;
+}
+
+section p{
+    padding-bottom: 5%;
+    position: relative;
+
+}
+
+.seccion-texto {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.div-contenido{
+    max-width: none;
+    width: 95%;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    background-color: var(--color2);
+    position: relative;
+    bottom: 150px;
+}
+
+.tarjeta{
+    max-width: 300px;
+
+    padding: 60px 30px 60px 30px;
+}
+
