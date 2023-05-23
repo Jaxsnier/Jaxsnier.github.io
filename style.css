@@ -37,6 +37,10 @@ p{
     text-align: justify;
     font-size: 1.2rem;
 }
+a{
+    text-decoration: none;
+    color: var(--color2);
+}
 header{
     background-color: var(--color2);
 }
@@ -149,4 +153,58 @@ section p{
 
 .tarjeta p{
     text-align: center;
+}
+
+footer{
+    background-color: var(--color1);
+    color: var(--color2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.tarjeta-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: var(--color4);
+    width: 90%;
+
+    border-radius: 10px;
+    position: relative;
+    bottom: 50px;
+
+}
+.tarjeta-footer p{
+    max-width: 30%;
+    margin: 4%;
+    text-align: center;
+
+}
+.tarjeta-footer a{
+    max-width: 30%;
+    border-radius: 30px;
+    padding: 1.5%;
+    border: 1px solid var(--color3);
+}
+.tarjeta-footer a:hover{
+    color: var(--color5-text);
+    background-color: var(--color3);
+}
+.contenedor-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contenedor-links a{
+padding: 3%;
+margin-bottom: 30%;
+}
+
+.contenedor-links a:hover{
+    color: var(--color3);
 }
